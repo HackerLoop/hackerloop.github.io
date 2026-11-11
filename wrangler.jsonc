@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "hackerloop-site",
+  "account_id": "4a37aee614d9c1dcd519cbed1de9bccc",
+  "compatibility_date": "2026-11-09",
+  "workers_dev": true,
+  "routes": [
+    { "pattern": "hackerloop.com/*", "zone_name": "hackerloop.com" }
+  ],
+  "assets": {
+    "directory": "./dist"
+  }
+}
