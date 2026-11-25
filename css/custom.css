@@ -1,7 +1,24 @@
 /*! Place your custom styles here */
 
-/* Balance official assets that include generous internal clear space. */
-.slider .client-logo--padded {
-    max-height: 80px;
+/* Center the artwork despite different logo aspect ratios and clear space. */
+.client-logos .slides li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+}
+
+.client-logos .image--xs {
+    margin: 0;
     width: auto;
+    max-width: 100%;
+}
+
+/* Match the existing gray client marks without changing official artwork. */
+.client-logos .client-logo--new {
+    opacity: 0.6;
+}
+
+.client-logos .client-logo--padded {
+    max-height: 80px;
 }
