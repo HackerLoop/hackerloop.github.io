@@ -22,3 +22,21 @@
 .client-logos .client-logo--padded {
     max-height: 80px;
 }
+
+.client-logos .client-logo--smaller {
+    transform: scale(0.82);
+}
+
+.client-logo-vitality {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    color: #666;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1;
+    text-align: left;
+    text-transform: uppercase;
+}
