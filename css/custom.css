@@ -1,1 +1,7 @@
 /*! Place your custom styles here */
+
+/* Balance official assets that include generous internal clear space. */
+.slider .client-logo--padded {
+    max-height: 80px;
+    width: auto;
+}
