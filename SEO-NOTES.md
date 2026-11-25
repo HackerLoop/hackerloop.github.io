@@ -1,3 +1,36 @@
+# Homepage SEO update — 25 November 2026
+
+Current implementation supersedes the historical copy notes below. The earlier
+note described visible improvements that were absent from the current HTML.
+
+- Added one visible H1: “Interactive production & creative technology studio in Paris”.
+- Added Paris to the title and Open Graph title; retained the descriptive meta
+  description, canonical URL, and linked Organization/WebSite structured data.
+- Expanded the actual service copy around live audience participation, Twitch
+  development, custom software, hardware and interactive installations.
+- Replaced vague “productizing” copy, corrected the heading hierarchy, and added
+  direct project enquiry email links. No client results or project claims invented.
+- Added a main landmark and removed an unmatched closing div in the hero.
+- Verified npm build, diff whitespace checks, rendered desktop content and layout,
+  canonical URL and parseable JSON-LD in Chrome. Mobile layout not separately tested.
+- Deployed to hackerloop.com on 25 November 2026 via the existing Cloudflare Worker.
+  Version: d07708b6-e70c-4b60-abd3-d4a446e2be38.
+- Search Console confirmed “Indexation demandée”: the homepage was added to
+  the priority crawl queue after its live indexability check.
+- Verified the live title, H1, service copy, email links, canonical, robots meta
+  and parseable Organization/WebSite JSON-LD in Chrome.
+
+Search Console was reviewed on 25 November: the homepage is indexed, the sitemap
+was successfully submitted with one URL discovered, and the performance report
+was filtered to exclude Cheatloop. The unfiltered three-month report showed 16
+clicks and 2,695 impressions. Query-filtered totals are incomplete and should not
+be treated as the full organic baseline.
+
+Next: assess relevant query impressions after several weeks. Add verified project case studies when
+briefs, roles and outcomes are available. Ranking improvements are not guaranteed.
+
+---
+
 # SEO and copy update — 9 November 2026
 
 ## Positioning
